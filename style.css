@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-a{
+.nav{
     text-decoration: none;
     color: #FAFAFA;
 }
@@ -181,7 +181,6 @@ main{
     width: 512px;
     height: auto;
     float: left;
-    padding-top: 30px;
 }
 
 .profile-name{
@@ -207,10 +206,14 @@ main{
     margin: 0 auto;
 }
 
-.contact-b{
+.contact-group{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left-content{
+    width: 50%;
     float: left;
-    width: 400px;
-    height: auto;
 }
 
 .contact-m{
@@ -222,24 +225,34 @@ main{
     margin-bottom: 20px;
 }
 
-.contact-c{
-    float: left;
-    width: 400px;
-    height: auto;
+.link-text{
+    text-decoration: underline;
+    color: #212121;
 }
 
-.contact-d{
-    width: 400px;
-    text-align: center;
+.right-content{
+    width: 50%;
+    float: right;
+}
+
+.left-contact-content{
+    width: 130px;
+    margin: 0 auto;
+}
+
+.right-contact-content{
+    width: 170px;
+    margin: 0 auto;
 }
 
 .fab{
-    font-size: 60px;
+    display: inline-block;
+    font-size: 45px;
     margin-right: 20px;
     margin-top: 5px;
 }
 
-.fab:nth-last-child(){
+.fab:last-child{
     margin-right: 0px;
 }
 
@@ -384,14 +397,27 @@ footer{
         height: 250px;
     }
 
+    .profile-a{
+        text-align: center;
+    }
+
     .profile-text{
-        width: 90%;
-        margin: 0 auto;
+        margin: 20px 0 5px 0;
+        float: none;
+        width: 100%;
     }
 
     .profile-name{
         float: none;
         text-align: center;
+    }
+
+    .profile-n{
+        font-size: 20px;
+    }
+
+    .profile-nn{
+        font-size: 16px;
     }
 
     .profile-skill{
